@@ -1,0 +1,181 @@
+Module Name,Product Name,,Probashi - Apps on Google Play,TC Start Date,7/10/2023,,,,TEST CASE SUMMARY,
+,,,,TC End Date,7/12/2023,,,, P,11
+,,,,Test Case Developed By,...,,,,F,4
+,Developer Name (TL),,...,Test Case Reviewed By,...,,,,w,0
+,Test Executed by,,Ramisa Anan,,,,TOTAL,,,
+,Test Case ID/Name,Test Case Description,Test Steps,Test Data,Expected Result,Actual Result,Status,comment,,
+Registration / Sing-up with Email ,TC001,For successful Registration,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with valid information.
+5.Click on the ""Sign Up"" button again.
+6.For mail verification Click on ""Verify mail"" button.
+7.Verify that a confirmation email is sent to the registered email address.
+","1. User full English Name
+2. User full Bangla Name
+3. Valid Email address
+4. password
+5. confirm password
+",Should be able to register,Able to register,Pass,No Comments,,
+,TC002,Registration with Invalid Name,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with Invalid Name OR wrong letter
+","1. User full English Name is wrong letter (GGGGGG)
+2. User full Bangla Name is wrong letter
+3. Valid Email address
+4. password
+5. confirm password
+",Should not be able to register, able to register,Fail,No Comments,,
+,TC003,Registration with Invalid Name or both are English Name,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with User name both are English.
+5.Click on the ""Sign Up"" button again.
+","1. User full English Name option fillup with English letter
+2. User full Bangla Name option fillup with English letter
+3. Valid Email address
+4. password
+5. confirm password",Should not be able to register,Not able to register,Pass,No Comments,,
+,TC004,Registration with valid Name & Invalid E-mail,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with Invalid Email
+5.Click on the ""Sign Up"" button again.
+","1. User full English Name  
+2. User full Bangla Name 
+3. Invalid-Email address
+4. password
+5. confirm password",Should not be able to register,Not able to register,Pass,No Comments,,
+,TC005,"Registration with valid Name,E-mail & Normal Password","1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with valid Name ,Email & Normal Password 
+5.Click on the ""Sign Up"" button again.
+","1. User full English Name  
+2. User full Bangla Name 
+3. Valid Email address
+4. Normal password like (Ramisa2080)
+5. confirm password",Should not be able to register,Not able to register,pass,No Comments,,
+,TC006,"Registration with valid Name,E-mail, Difference about password & confirm password","1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with valid Name ,Email, different password & confirm password
+5.Click on the ""Sign Up"" button again.","1. User full English Name  
+2. User full Bangla Name 
+3. Valid Invalid-Email address
+4. password like (Ramisa2080)
+5. confirm password like (Anan2080)",Should not be able to register,Not be able to register,Pass,No Comments,,
+,TC007,Existing Email Check,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields with valid Name , Same Email Address for creat another Account
+5.Click on the ""Sign Up"" button again.","1. User full English Name  
+2. User full Bangla Name 
+3. Same Email address for new account
+4. password 
+5. confirm password like ",Should be able to register,Not able to register,Fail,No Comments,,
+,TC008,Password Length Check,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields & password with unlimited letter.
+5.Click on the ""Sign Up"" button again.","1. User full English Name 
+2. User full Bangla Name
+3. Valid Email address
+4. password with unlimited letter
+5. confirm password was same",Should not be able to register, Able to register,Fail,No Comments,,
+,TC009,Name Length check,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions.
+3.Click on the ""Sign Up"" button.
+4.Fill in all the required registration fields & Name with unlimited letter.
+5.Click on the ""Sign Up"" button again.","1. User full English Name with unlimited letter
+2. User full Bangla Name with unlimited letter
+3. Valid Email address
+4. password
+5. confirm password",Should not be able to register,Able to register,Fail,No Comments,,
+Registration / Sing-up with Phone Number,TC001,For successful Registration,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign Up"" button. 
+4. Tap the option “phone Sign Up”
+5.Fill in all the required registration fields with valid information. 
+6.Click on the ""Sign Up"" button again.
+7.For mail verification Click on ""Verify mail"" button. 
+8.Verify that a confirmation email is sent to the registered email address
+","1. User full English Name
+2. User full Bangla Name
+3. Valid Email address
+4. Valid Phone number",Should be able to register, Able to register,Pass,No Comments,,
+,TC002,Registration with Invalid Phone Number,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 3.Click on the ""Sign Up"" button. 
+4. Tap the option “phone Sign Up” 
+5.Fill in all the required registration fields with Invalid Number
+
+
+","1. User full English Name
+2. User full Bangla Name
+3. Invalid phone number
+
+",Should not be able to register,Not able to register,Pass,No Comments,,
+,TC003,Registration with Invalid Name or both are English Name & Bangla Name,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign Up"" button. 
+4. Tap the option “phone Sign Up”
+5.Fill in all the required registration fields with User name both are English or Both are Bangla Name
+6.Click on the ""Sign Up"" button again.
+","1. User full English Name option fillup with English letter or Bangla Letter
+2. User full Bangla Name option fillup with English letter or Bangla Letter
+3. Valid Phone Number
+",Should not be able to register, Not able to register,Pass,No Comments,,
+,TC004,Name Length check,"1.Download the Probashi app.
+2.Agree with the Terms & Conditions. 
+3.Tap the option “phone Sign Up”
+4.Fill  the  Name with unlimited letter. 
+5. Valid phone number
+6.Click on the ""Sign Up"" button again
+","1. User full English Name 
+2. User full Bangla Name
+3. Valid phone number
+",Should not be able to register,Able to register,Fail,No Comments,,
+Log in page/Sign In with Email,TC001,Verify to login with a valid username and valid password.,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign In"" button. 
+4. Tap The “Email Login”
+5.Fill in all the required registration fields with valid information. 
+6.Click on the ""Sign In"" button again. 
+
+","1. Valid Email address 
+2. valid password 
+",Should be able to Login,Able to Login,pass,No Comments,,
+,TC002,Verify to login with a valid username and an invalid password.,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign In"" button. 
+4. Tap The “Email Login”
+5.Fill in all the required fields with invalid password. 
+6.Click on the ""Sign In"" button again. ","1. Valid Email address 
+2. Invalid password 
+",Should not be able to Login,Not able to Login,pass,No Comments,,
+,TC003,Verify the login page for both when the field is blank and Submit button is clicked,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign In"" button. 
+4. Tap The “Email Login”
+5.Dont Fill all the required fields  
+6.Click on the ""Sign In"" button again. ",Dont used any data,Should not be able to Login,Not able to Login,Pass,No Comments,,
+,TC004,Verify the ‘Forgot Password’ functionality.,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign In"" button. 
+4. Tap The “Email Login”
+5.Fill all the required fields without password & Click the ""Forget password"" Option
+6.Click on the ""Sign In"" button again.","1. Valid Email address 
+ ",verify by Email Option,verify by Email Option,pass,No Comments,,
+,TC005,Verify the data in password field is visible signs,"1.Download the Probashi app. 
+2.Agree with the Terms & Conditions. 
+3.Click on the ""Sign In"" button.
+4. Tap The “Email Login” 
+5.Fill all the required fields with password 
+6. Click the ""Password visible sign"" Option 
+7.Click on the ""Sign In"" button again.
+","1. Valid Email address 
+2. Invalid password 
+
+
+",Visible the password,Visible the password,Pass,No Comments,,
